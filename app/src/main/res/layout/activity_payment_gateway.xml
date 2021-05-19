@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".paymentGateway"
+    android:orientation="vertical"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/location_bar_button"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        tools:ignore="UselessParent">
+        <RadioGroup
+            android:id="@+id/PaymentType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_margin="10dp">
+            <RadioButton
+                android:id="@+id/COD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cash_on_delivery_cod"/>
+            <RadioButton
+                android:id="@+id/netBank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/net_banking"
+                android:enabled="false"/>
+            <RadioButton
+                android:id="@+id/credit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/credit_card_debit_card"
+                android:enabled="false" />
+            <RadioButton
+                android:id="@+id/UPI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/upi_gateway"
+                android:enabled="false"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/placeOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:background="@drawable/background_button"
+            android:text="@string/place_order"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "673888340082",
+    "project_id": "vocals-f9b0a",
+    "storage_bucket": "vocals-f9b0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673888340082:android:5a398d09c493279b3e9aeb",
+        "android_client_info": {
+          "package_name": "com.example.splashscreen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673888340082-0p2qrddqa98ki8o4hlp8fc57p6f5enti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtuG0fpdTaawIbwwNacGGcsoY9lRgmZbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673888340082-0p2qrddqa98ki8o4hlp8fc57p6f5enti.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
