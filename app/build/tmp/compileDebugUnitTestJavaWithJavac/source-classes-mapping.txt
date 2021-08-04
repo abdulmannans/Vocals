@@ -1,0 +1,2 @@
+com/example/splashscreen/ExampleUnitTest.java
+ com.example.splashscreen.ExampleUnitTest
